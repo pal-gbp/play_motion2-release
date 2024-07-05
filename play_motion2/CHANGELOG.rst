@@ -2,6 +2,11 @@
 Changelog for package play_motion2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.2 (2024-07-04)
+------------------
+* Handle joint state not available in /joint_states topic
+* Contributors: Noel Jimenez
+
 1.1.1 (2024-04-26)
 ------------------
 * fix joint name by replacing find_first_of function to find_last_of
