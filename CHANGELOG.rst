@@ -2,6 +2,18 @@
 Changelog for package play_motion2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.0 (2025-01-10)
+------------------
+* Add support for chainable controllers
+* Contributors: Noel Jimenez
+
+1.4.0 (2024-11-18)
+------------------
+* Remove controller manager name from spawner arguments
+* Add test for Joint Trajectory failure
+* Cancel all goals if one of the controllers fails
+* Contributors: Noel Jimenez, Sai Kishor Kothakota
+
 1.3.0 (2024-09-10)
 ------------------
 * Remove error log from exists function
