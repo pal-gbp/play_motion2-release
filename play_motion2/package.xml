@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>play_motion2</name>
-  <version>1.5.1</version>
+  <version>1.5.2</version>
 
   <description>Play a pre-recorded motion on a robot</description>
 
@@ -44,7 +44,6 @@
   <test_depend>hardware_interface</test_depend>
   <test_depend>joint_state_broadcaster</test_depend>
   <test_depend>joint_trajectory_controller</test_depend>
-  <test_depend>launch_pal</test_depend>
   <test_depend>launch_testing_ament_cmake</test_depend>
   <test_depend>pluginlib</test_depend>
   <test_depend>realtime_tools</test_depend>
