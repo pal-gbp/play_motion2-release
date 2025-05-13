@@ -2,6 +2,16 @@
 Changelog for package play_motion2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.2 (2025-05-12)
+------------------
+* Bump cmake_minimum_required to 3.8
+* Fix: share client library for using it from other packages
+* Fix deprecated generate_parameter_library header
+* Revert "Merge branch 'fix/warn/generate_parameter_library' into 'humble-devel'"
+  This reverts merge request !72
+* Remove launch_pal dependency
+* Contributors: Noel Jimenez
+
 1.5.1 (2025-03-11)
 ------------------
 * Remap description topics
