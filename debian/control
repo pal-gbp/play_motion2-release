@@ -1,0 +1,12 @@
+Source: ros-jazzy-play-motion2
+Section: misc
+Priority: optional
+Maintainer: Noel Jimenez <noel.jimenez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-auto, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-pytest <!nocheck>, ros-jazzy-ament-cmake-python, ros-jazzy-ament-index-cpp <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-interface <!nocheck>, ros-jazzy-controller-manager <!nocheck>, ros-jazzy-controller-manager-msgs, ros-jazzy-hardware-interface <!nocheck>, ros-jazzy-joint-state-broadcaster <!nocheck>, ros-jazzy-joint-trajectory-controller <!nocheck>, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-lifecycle-msgs, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-play-motion2-msgs, ros-jazzy-pluginlib <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools <!nocheck>, ros-jazzy-robot-state-publisher <!nocheck>, ros-jazzy-sensor-msgs, ros-jazzy-sensor-msgs <!nocheck>, ros-jazzy-std-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-xacro <!nocheck>, ros-jazzy-ros-workspace
+Homepage: https://github.com/pal-robotics/play_motion2
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-play-motion2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-manager-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-lifecycle-msgs, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-play-motion2-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace
+Description: Play a pre-recorded motion on a robot
