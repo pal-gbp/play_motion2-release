@@ -1,0 +1,12 @@
+Source: ros-kilted-play-motion2
+Section: misc
+Priority: optional
+Maintainer: Noel Jimenez <noel.jimenez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-pytest <!nocheck>, ros-kilted-ament-cmake-python, ros-kilted-ament-index-cpp <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-backward-ros, ros-kilted-control-msgs, ros-kilted-controller-interface <!nocheck>, ros-kilted-controller-manager <!nocheck>, ros-kilted-controller-manager-msgs, ros-kilted-hardware-interface <!nocheck>, ros-kilted-joint-state-broadcaster <!nocheck>, ros-kilted-joint-trajectory-controller <!nocheck>, ros-kilted-launch-testing-ament-cmake <!nocheck>, ros-kilted-lifecycle-msgs, ros-kilted-moveit-ros-planning-interface, ros-kilted-play-motion2-msgs, ros-kilted-pluginlib <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclcpp-action, ros-kilted-rclcpp-components, ros-kilted-rclcpp-lifecycle, ros-kilted-realtime-tools <!nocheck>, ros-kilted-robot-state-publisher <!nocheck>, ros-kilted-sensor-msgs, ros-kilted-sensor-msgs <!nocheck>, ros-kilted-std-msgs, ros-kilted-trajectory-msgs, ros-kilted-xacro <!nocheck>, ros-kilted-ros-workspace
+Homepage: https://github.com/pal-robotics/play_motion2
+Standards-Version: 3.9.2
+
+Package: ros-kilted-play-motion2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-backward-ros, ros-kilted-control-msgs, ros-kilted-controller-manager-msgs, ros-kilted-launch, ros-kilted-launch-ros, ros-kilted-lifecycle-msgs, ros-kilted-moveit-ros-planning-interface, ros-kilted-play-motion2-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-action, ros-kilted-rclcpp-components, ros-kilted-rclcpp-lifecycle, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-trajectory-msgs, ros-kilted-ros-workspace
+Description: Play a pre-recorded motion on a robot
