@@ -1,0 +1,12 @@
+Source: ros-jazzy-play-motion2-msgs
+Section: misc
+Priority: optional
+Maintainer: Noel Jimenez <noel.jimenez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-action-msgs, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-generators, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: https://github.com/pal-robotics/play_motion2
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-play-motion2-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-action-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-ros-workspace
+Description: Play a pre-recorded motion on a robot
