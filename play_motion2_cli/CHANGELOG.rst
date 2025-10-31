@@ -2,6 +2,9 @@
 Changelog for package play_motion2_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.1 (2025-10-23)
+------------------
+
 1.8.0 (2025-10-15)
 ------------------
 * Start zenoh router if rmw_implementation is rmw_zenoh_cpp
